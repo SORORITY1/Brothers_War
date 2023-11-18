@@ -1,0 +1,15 @@
+Terraform v1.2.4
+on linux_amd64
+Initializing plugins and modules...
+[31m[0mThere are some problems with the configuration, described below.
+
+The Terraform configuration must be valid before initialization so that
+Terraform can determine which modules and providers need to be installed.[0m[0m[0m
+[31m[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mArgument or block definition required[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mOn Production_active.tf line 20: An argument or block definition is
+[31m│[0m [0mrequired here.
+[31m╵[0m[0m
+[0m[0m
+Operation failed: failed running terraform init (exit 1)
