@@ -1,0 +1,1 @@
+echo "{environment_variable_name}={value}" >> "$GITHUB_ENV"
