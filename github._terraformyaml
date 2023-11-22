@@ -1,0 +1,12 @@
+terraform {
+  cloud {
+    organization = "Realmylocyrus"
+
+    workspaces {
+      name = "Github"
+    }
+  }
+}
+
+Run terraform init to initialize the workspace.
+Run terraform apply to start the first run for this workspace.
